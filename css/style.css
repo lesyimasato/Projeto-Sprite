@@ -1,0 +1,17 @@
+body{
+    background-color: #ede19e;
+}
+
+#anima-div{
+    background: url("../imgs/chopper2.png") -36px -34px;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 220px;
+    left:  630px;
+    animation: anima-sprite 6s steps(73) infinite;
+}
+
+@keyframes anima-sprite{
+    100%{background-position-x: -28032px;}
+}
